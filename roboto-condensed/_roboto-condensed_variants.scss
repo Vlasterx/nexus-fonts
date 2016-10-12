@@ -1,0 +1,118 @@
+// ROBOTO CONDENSED
+// ----------------
+
+//    Font Weight guide:
+//    ------------------
+//    100 - thin
+//    200
+//    300 - light
+//    400 - regular
+//    500 - medium
+//    600
+//    700 - bold
+//    800
+//    900 - black / heavy
+
+$font-weight-thin: 100 !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-medium: 500 !default !default;
+$font-weight-bold: 700 !default;
+$font-weight-black: 900 !default;
+
+
+// Light
+@mixin robotoCondensed-light {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-Light.eot');
+        src: url('RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+            url('RobotoCondensed-Light.woff2') format('woff2'),
+            url('RobotoCondensed-Light.woff') format('woff'),
+            url('RobotoCondensed-Light.ttf') format('truetype'),
+            url('RobotoCondensed-Light.svg#roboto_condensedlight') format('svg');
+        font-weight: $font-weight-light;
+        font-style: normal;
+
+    }
+}
+
+// Light - italic
+@mixin robotoCondensed-light-italic {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-LightItalic.eot');
+        src: url('RobotoCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+            url('RobotoCondensed-LightItalic.woff2') format('woff2'),
+            url('RobotoCondensed-LightItalic.woff') format('woff'),
+            url('RobotoCondensed-LightItalic.ttf') format('truetype'),
+            url('RobotoCondensed-LightItalic.svg#roboto_condensedlight_italic') format('svg');
+        font-weight: $font-weight-light;
+        font-style: italic;
+
+    }
+}
+
+// Regular
+@mixin robotoCondensed-regular {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-Regular.eot');
+        src: url('RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+             url('RobotoCondensed-Regular.woff2') format('woff2'),
+             url('RobotoCondensed-Regular.woff') format('woff'),
+             url('RobotoCondensed-Regular.ttf') format('truetype'),
+             url('RobotoCondensed-Regular.svg#roboto_condensedregular') format('svg');
+        font-weight: $font-weight-regular;
+        font-style: normal;
+
+    }
+}
+
+// Regular - Italic
+@mixin robotoCondensed-regular-italic {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-Italic.eot');
+        src: url('RobotoCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+             url('RobotoCondensed-Italic.woff2') format('woff2'),
+             url('RobotoCondensed-Italic.woff') format('woff'),
+             url('RobotoCondensed-Italic.ttf') format('truetype'),
+             url('RobotoCondensed-Italic.svg#roboto_condenseditalic') format('svg');
+        font-weight: $font-weight-regular;
+        font-style: italic;
+
+    }
+}
+
+// Bold
+@mixin robotoCondensed-bold {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-Bold.eot');
+        src: url('RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+             url('RobotoCondensed-Bold.woff2') format('woff2'),
+             url('RobotoCondensed-Bold.woff') format('woff'),
+             url('RobotoCondensed-Bold.ttf') format('truetype'),
+             url('RobotoCondensed-Bold.svg#roboto_condensedbold') format('svg');
+        font-weight: $font-weight-bold;
+        font-style: normal;
+
+    }
+}
+
+// Bold - italic
+@mixin robotoCondensed-bold-italic {
+    @font-face {
+        font-family: 'roboto-condensed';
+        src: url('RobotoCondensed-BoldItalic.eot');
+        src: url('RobotoCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+             url('RobotoCondensed-BoldItalic.woff2') format('woff2'),
+             url('RobotoCondensed-BoldItalic.woff') format('woff'),
+             url('RobotoCondensed-BoldItalic.ttf') format('truetype'),
+             url('RobotoCondensed-BoldItalic.svg#roboto_condensedbold_italic') format('svg');
+        font-weight: $font-weight-bold;
+        font-style: italic;
+
+    }
+}
