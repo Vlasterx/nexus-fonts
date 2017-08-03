@@ -13,39 +13,45 @@
 
 // Regular
 @font-face {
-    font-family: 'waukegan_ext';
-    src: url('waukegan_ext.eot');
-    src: url('waukegan_ext.eot?#iefix') format('embedded-opentype'),
-         url('waukegan_ext.woff2') format('woff2'),
-         url('waukegan_ext.woff') format('woff'),
-         url('waukegan_ext.ttf') format('truetype'),
-         url('waukegan_ext.svg#waukegan_ext') format('svg');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'waukegan_ext';
+  src: url('waukegan_ext.eot');
+  src: url('waukegan_ext.eot?#iefix') format('embedded-opentype'),
+       url('waukegan_ext.woff2') format('woff2'),
+       url('waukegan_ext.woff') format('woff'),
+       url('waukegan_ext.ttf') format('truetype'),
+       url('waukegan_ext.svg#waukegan_ext') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
 }
 
 // Bold
 @font-face {
-    font-family: 'waukegan_ext';
-    src: url('waukegan_ext_bold.eot');
-    src: url('waukegan_ext_bold.eot?#iefix') format('embedded-opentype'),
-         url('waukegan_ext_bold.woff2') format('woff2'),
-         url('waukegan_ext_bold.woff') format('woff'),
-         url('waukegan_ext_bold.ttf') format('truetype'),
-         url('waukegan_ext_bold.svg#waukegan_ext_bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'waukegan_ext';
+  src: url('waukegan_ext_bold.eot');
+  src: url('waukegan_ext_bold.eot?#iefix') format('embedded-opentype'),
+       url('waukegan_ext_bold.woff2') format('woff2'),
+       url('waukegan_ext_bold.woff') format('woff'),
+       url('waukegan_ext_bold.ttf') format('truetype'),
+       url('waukegan_ext_bold.svg#waukegan_ext_bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+
 }
 
 // Black
 @font-face {
-    font-family: 'waukegan_ext';
-    src: url('waukegan_ext_black.eot');
-    src: url('waukegan_ext_black.eot?#iefix') format('embedded-opentype'),
-         url('waukegan_ext_black.woff2') format('woff2'),
-         url('waukegan_ext_black.woff') format('woff'),
-         url('waukegan_ext_black.ttf') format('truetype'),
-         url('waukegan_ext_black.svg#waukegan_ext_black') format('svg');
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'waukegan_ext';
+  src: url('waukegan_ext_black.eot');
+  src: url('waukegan_ext_black.eot?#iefix') format('embedded-opentype'),
+       url('waukegan_ext_black.woff2') format('woff2'),
+       url('waukegan_ext_black.woff') format('woff'),
+       url('waukegan_ext_black.ttf') format('truetype'),
+       url('waukegan_ext_black.svg#waukegan_ext_black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  
 }
