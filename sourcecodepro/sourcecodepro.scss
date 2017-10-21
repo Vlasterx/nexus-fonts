@@ -1,0 +1,184 @@
+// Source Code Pro
+// ---------------
+
+// Font Weight guide:
+// ------------------
+// 100
+// 200 - extra light
+// 300 - light
+// 400 - regular
+// 500 - medium
+// 600 - semibold
+// 700 - bold
+// 800
+// 900 - black / heavy
+
+
+// Extra light
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-extralight.eot');
+  src: url('sourcecodepro-extralight.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-extralight.woff2') format('woff2'),
+       url('sourcecodepro-extralight.woff') format('woff'),
+       url('sourcecodepro-extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-extralightit.eot');
+  src: url('sourcecodepro-extralightit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-extralightit.woff2') format('woff2'),
+       url('sourcecodepro-extralightit.woff') format('woff'),
+       url('sourcecodepro-extralightit.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+// Light
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-light.eot');
+  src: url('sourcecodepro-light.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-light.woff2') format('woff2'),
+       url('sourcecodepro-light.woff') format('woff'),
+       url('sourcecodepro-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-lightit.eot');
+  src: url('sourcecodepro-lightit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-lightit.woff2') format('woff2'),
+       url('sourcecodepro-lightit.woff') format('woff'),
+       url('sourcecodepro-lightit.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Regular
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-regular.eot');
+  src: url('sourcecodepro-regular.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-regular.woff2') format('woff2'),
+       url('sourcecodepro-regular.woff') format('woff'),
+       url('sourcecodepro-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-it.eot');
+  src: url('sourcecodepro-it.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-it.woff2') format('woff2'),
+       url('sourcecodepro-it.woff') format('woff'),
+       url('sourcecodepro-it.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Medium
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-medium.eot');
+  src: url('sourcecodepro-medium.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-medium.woff2') format('woff2'),
+       url('sourcecodepro-medium.woff') format('woff'),
+       url('sourcecodepro-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-mediumit.eot');
+  src: url('sourcecodepro-mediumit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-mediumit.woff2') format('woff2'),
+       url('sourcecodepro-mediumit.woff') format('woff'),
+       url('sourcecodepro-mediumit.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Semi-bold
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-semibold.eot');
+  src: url('sourcecodepro-semibold.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-semibold.woff2') format('woff2'),
+       url('sourcecodepro-semibold.woff') format('woff'),
+       url('sourcecodepro-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-semiboldit.eot');
+  src: url('sourcecodepro-semiboldit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-semiboldit.woff2') format('woff2'),
+       url('sourcecodepro-semiboldit.woff') format('woff'),
+       url('sourcecodepro-semiboldit.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Bold
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-bold.eot');
+  src: url('sourcecodepro-bold.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-bold.woff2') format('woff2'),
+       url('sourcecodepro-bold.woff') format('woff'),
+       url('sourcecodepro-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-boldit.eot');
+  src: url('sourcecodepro-boldit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-boldit.woff2') format('woff2'),
+       url('sourcecodepro-boldit.woff') format('woff'),
+       url('sourcecodepro-boldit.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Black
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-black.eot');
+  src: url('sourcecodepro-black.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-black.woff2') format('woff2'),
+       url('sourcecodepro-black.woff') format('woff'),
+       url('sourcecodepro-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sourcecodepro';
+  src: url('sourcecodepro-blackit.eot');
+  src: url('sourcecodepro-blackit.eot?#iefix') format('embedded-opentype'),
+       url('sourcecodepro-blackit.woff2') format('woff2'),
+       url('sourcecodepro-blackit.woff') format('woff'),
+       url('sourcecodepro-blackit.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
