@@ -25,15 +25,11 @@
 	}
 }
 
-// Light
-@include fontFace("Roboto Condensed", "RobotoCondensed-Light", 300, "normal");
-// Light Italic
-@include fontFace("Roboto Condensed", "RobotoCondensed-LightItalic", 300, "italic");
-// Regular
-@include fontFace("Roboto Condensed", "RobotoCondensed-Regular", 400, "normal");
-// Regular Italic
-@include fontFace("Roboto Condensed", "RobotoCondensed-Italic", 400, "italic");
+// Normal
+@include fontFace("Ananda", "andada-regular-webfont", "400", "normal");
+// Italic
+@include fontFace("Ananda", "andada-italic-webfont", "400", "italic");
 // Bold
-@include fontFace("Roboto Condensed", "RobotoCondensed-Bold", 700, "normal");
+@include fontFace("Ananda", "andada-bold-webfont", "700", "normal");
 // Bold Italic
-@include fontFace("Roboto Condensed", "RobotoCondensed-BoldItalic", 700, "italic");
+@include fontFace("Ananda", "andada-bolditalic-webfont", "700", "italic");
